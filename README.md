@@ -28,7 +28,7 @@ AI coding skills that enhance developer productivity on MegaETH. Skills follow t
 
 - [x402-payments-skill](https://github.com/0xBreadguy/megaeth-ai-developer-skills/blob/main/x402-payments.md) - AI coding skill for x402 HTTP payments on MegaETH using the standard Permit2 flow. Covers seller/server middleware, buyer/client signing, self-settlement via x402ExactPermit2Proxy and x402UptoPermit2Proxy at canonical addresses, USDm 18-decimal amount handling, and sub-50ms settlement with `realtime_sendRawTransaction`.
 - [usdm-skill](https://github.com/0xBreadguy/megaeth-ai-developer-skills/blob/main/usdm-stablecoin.md) - AI coding skill for USDm, MegaETH's native stablecoin, covering ERC-2612 permit flows, payment integration patterns, and usage across MegaNames, Kumbaya DEX, and paymasters.
-- [meridian-x402-skill](https://github.com/0xBreadguy/megaeth-ai-developer-skills/blob/main/meridian.md) - (Legacy) AI coding skill for Meridian x402 payments on MegaETH covering seller-side settlement with the Meridian API, buyer-side USDm approval and EIP-712 TransferWithAuthorization signing against the MegaETH forwarder, and payment payload construction.
+- [meridian-x402-skill](https://github.com/0xBreadguy/megaeth-ai-developer-skills/blob/main/meridian.md) - AI coding skill for Meridian x402 payments on MegaETH covering seller-side settlement through Meridian’s /v1/settle API, organization/API key setup, the current Permit2-based facilitator flow for ERC-20 payments, and the legacy USDm EIP-3009 forwarder flow for backward compatibility. Includes buyer-side Permit2 approval/signing, facilitator-bound payment payload construction, and MegaETH-specific constants.
 
 ### DeFi
 
