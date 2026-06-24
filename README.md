@@ -59,7 +59,6 @@ Developer tools for the MegaETH ecosystem.
 Educational content for building on MegaETH.
 
 - [MegaETH Docs](https://docs.megaeth.com) - Official documentation covering MegaEVM differences, Realtime API (EIP-7966), mini-block architecture, and RPC reference.
-- [MegaETH Frontier Guide](https://docs.megaeth.com/frontier) - Guide to connecting to and using MegaETH Mainnet.
 - [mega-evm](https://github.com/megaeth-labs/mega-evm) - MegaETH's EVM encapsulation based on revm. Includes mega-evme for transaction replay, opcode-level gas profiling, and debugging.
 - [RedBlackTreeKV Demo](https://github.com/megaeth-labs/RedBlackTreeKV-demo) - Gas-efficient key-value store using Red-Black Trees in Solidity, optimized for MegaETH's storage cost model.
 
